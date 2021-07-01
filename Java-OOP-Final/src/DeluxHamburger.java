@@ -16,6 +16,44 @@ public class DeluxHamburger extends Hamburger {
 	}
 	
 	
+	
+	
+	@Override
+	public void setCheese(Cheese cheese) {
+		// TODO Auto-generated method stub
+	  System.out.println("Cannot add to delux burger");
+	}
+
+
+
+
+	@Override
+	public void setLettuce(Lettuce lettuce) {
+		// TODO Auto-generated method stub
+		 System.out.println("Cannot add to delux burger");
+	}
+
+
+
+
+	@Override
+	public void setTomato(Tomato tomato) {
+		// TODO Auto-generated method stub
+		 System.out.println("Cannot add to delux burger");
+	}
+
+
+
+
+	@Override
+	public void setCondiment(Condiment condiment) {
+		// TODO Auto-generated method stub
+		 System.out.println("Cannot add to delux burger");
+	}
+
+
+
+
 	public double calculatePrice() {
 		double total = super.calculatePrice() +  this.chip.getChipPrice() + this.drink.getDrinkPrice();
 	
